@@ -1,1 +1,36 @@
 /* your styles go here */
+iframe{
+  background-color: #aaa;  
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.actual-video{
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+
+}
+
+#youtube-videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(400px);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    border: 5px solid #aaa;
+    padding: 10px;
+    background-color: #F5F5F7;
+    
+}
+
+#youtube-videos em {
+
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+
+footer {
+    background-color: #aaa;
+}

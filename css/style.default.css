@@ -2226,7 +2226,7 @@ ul ul a.nav-link {
 footer.main-footer {
   padding: 60px 0;
   padding-bottom: 0;
-  background: #555;
+  backgrounda: #aaa;
   color: #fff;
 }
 
@@ -2244,7 +2244,7 @@ footer.main-footer h4 {
 
 footer.main-footer p {
   font-size: 0.9rem;
-  color: #aaa;
+  color: #555;
 }
 
 footer.main-footer hr {
