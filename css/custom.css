@@ -6,16 +6,15 @@ iframe{
 }
 
 .actual-video{
-    display: flex;
-    flex-direction: column;
-    
+    display: flex; 
+    flex-direction: column;    
 
 }
-
 #youtube-videos {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: repeat(400px);
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(300px);
     grid-column-gap: 50px;
     grid-row-gap: 30px;
     border: 5px solid #aaa;
@@ -33,4 +32,52 @@ iframe{
 
 footer {
     background-color: #aaa;
+}
+
+@media (max-width: 991px)
+{
+    
+#youtube-vedios{
+    display: grid;
+    grid-template-columns:  1fr;    
+    grid-column-gap: 20px;
+    grid-template-rows: repeat(300px);
+    background-color: #F5F5F7;
+}
+
+iframe {
+    width: 300px;
+    background-color: #aaa;
+}
+
+}
+
+@media (max-width: 700px)
+{
+
+#youtube-vedios{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-column-gap: 10px;
+    grid-template-rows: repeat(200px);
+    background-color: #F5F5F7;
+}
+
+iframe {
+    
+    background-color:#aaa;
+    width: 150px;
+    padding: 0px;
+}
+   
+}
+
+@media (max-width:370px)
+{
+    iframe {
+    
+        background-color:#aaa;
+        width: 120px;
+        padding: 0px;
+    }
 }
